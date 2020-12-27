@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enter Books</title>
+
+<link rel="icon" type="image/jpg" sizes="50*50" href="https://www.fccnn.com/sports/article785186.ece/alternates/LANDSCAPE_560/3221322%2Bund-sports-logo-words.jpg">
+</head>
+
+
+<body  style="background-color:#009a44;">
+ 
+<h1 align= "center" style="color:#00008B; font-family:verdana; font-size:200%; background-color:LightGray; border: 2px solid black; padding: 5px;"><b> UND Online Bookstore: Admin Panel</b></h1><br>
+
+<form align = "left">
+<input type="submit" value=" Go Back " onclick="history.go(-1);return false;" />
+</form>
+</div><br>
+
+<form align ="center" style="font-size:120%;" method="post" action="http://undcemcs02.und.edu/~saroj.mishra/cgi-bin/513/2/AddBooks.cgi">
+  <h2><u> Enter Book </u></h2> <br>
+   ISBN: &nbsp;
+  <input type="text" name="isbn" required="required" placeholder="enter ISBN" size="30" /><br><br>
+  Title:&nbsp;
+  <input type="text" name="title" required="required" placeholder="enter book title" size="30" /><br><br>
+  Price:&nbsp;
+  <input type="text" name="price" required="required" placeholder="enter amount" size="30" /><br><br>
+  Rating:&nbsp;
+  <input type="radio" name="rating"  value="1" >1 &nbsp;&nbsp;&nbsp;
+  <input type="radio" name="rating"   value="2" >2 &nbsp;&nbsp;&nbsp;
+  <input type="radio" name="rating"  value="3" checked >3 &nbsp;&nbsp;&nbsp;
+  <input type="radio" name="rating"  value="4" >4 &nbsp;&nbsp;&nbsp;
+  <input type="radio" name="rating"  value="5" >5 &nbsp;&nbsp;&nbsp;
+	<br><br><br>
+  <input type="submit" name="submit" value="Add Book" />&nbsp;&nbsp;&nbsp;
+  <input type="reset"                  value="Clear" />&nbsp;
+
+</form> 
+
+
+</body>
+
+ <div style="position: relative; font-size:80%">
+  <p style="position: fixed; bottom: 0; width:100%; text-align: center">© 2020 Saroj Mishra – Grand Forks, ND - EECS</p>
+ </div>
+
+</html>
